@@ -1,0 +1,6 @@
+\(C(G) = - 2L + q Log(N)\)
+
+\begin{equation}
+  \xn \sim \sum_{r=1}^{\Rn} \wrn p(\xn | \srn, \Sigrn),
+  \label{eq:gm}
+\end{equation}

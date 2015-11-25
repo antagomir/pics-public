@@ -1,0 +1,57 @@
+\documentclass[slidestop,11pt,compress]{beamer}
+\geometry{verbose,a2paper}
+\usepackage{beamerthemeshadow}
+\usepackage{beamerouterthemedefault}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usenavigationsymbolstemplate{} % To remove navigation symbols
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Local defines : %%%%%%%%%%%%%%%%%%%%%%
+% define a slanted fraction:
+\def\slantfrac#1#2{\kern.1em^{#1}\kern-.3em/\kern-.1em_{#2}}
+% define Dirac's braket notation (stolen from braket.sty, that
+% unfortunately does not come with TeTeX
+\def\bra#1{\mathinner{\langle{#1}|}}
+\def\ket#1{\mathinner{|{#1}\rangle}}
+\xdefinecolor{darkgreen}{rgb}{0,0.5,0}
+\xdefinecolor{darkred}{rgb}{0.7,0,0}
+% Use the beamer balls. {{{-- (see beamerbaseauxtemplates.sty)
+\makeatletter
+\pgfdeclareradialshading[fg,parent.bg]{ballsphere}{\pgfpoint{-0.1849315ex}{.2260273ex}}%
+{%
+color(0cm)=(fg!15);
+color(0.1643835ex)=(fg!75);
+color(0.3287671ex)=(fg!70!black);
+color(0.4520547ex)=(fg!50!black);
+color(0.53ex)=(parent.bg)}
+\def\ball{\mbox{\beamer@usesphere{item projected}{bigsphere}}}
+\def\alertball{\mbox{\beamer@usesphere{alerted text}{ballsphere}}}
+\def\exampleball{\mbox{\beamer@usesphere{example text}{ballsphere}}}
+\def\whiteball{\mbox{\beamer@usesphere{white}{bigsphere}}}
+\makeatother    % --}}}
+
+\renewcommand{\emph}[1]{\structure{\bfseries #1}}
+\renewcommand\implies{\ifmmode \implies \else
+\structure{~$\Rightarrow$}~\fi}
+\newcommand\plus{\ifmmode + \else \structure{~$+$}~\fi}
+\let\oldsim\sim
+\renewcommand\sim{\ifmmode \oldsim \else
+\structure{~$\boldsymbol{\oldsim}$}~\fi}
+
+% I want HUGE fonts
+
+\newcommand{\HUGE}{\fontsize{28}{31}\selectfont}
+
+% Display a grid to help align images :
+%\beamertemplategridbackground[1cm]
+%\beamertemplatesolidbackgroundcolor{red}
+% grid size of slide : (0cm,-7cm)x(11cm,1cm)
+
+\xdefinecolor{example}{rgb}{0.97,0.97,0.94}
+%\xdefinecolor{example}{rgb}{0.95,0.95,0.95}
+%\xdefinecolor{exampledark}{rgb}{0.24,0.2,0.3}
+\xdefinecolor{exampledark}{rgb}{0.3,0.3,0.3}
+%\setbeamercolor{block body}{fg=black,bg=intro}
+\setbeamercolor{block body example}{fg=black,bg=example}
+\setbeamercolor{block title example}{fg=white,bg=exampledark}

@@ -1,0 +1,537 @@
+%!PS-Adobe-3.0
+%%DocumentNeededResources: font Helvetica
+%%+ font Helvetica-Bold
+%%+ font Helvetica-Oblique
+%%+ font Helvetica-BoldOblique
+%%+ font Symbol
+%%DocumentMedia: special 720 216 0 () ()
+%%Title: R Graphics Output
+%%Creator: R Software
+%%Pages: (atend)
+%%BoundingBox: 0 0 720 216
+%%EndComments
+%%BeginProlog
+/bp  { gs gs } def
+% begin .ps.prolog
+/gs  { gsave } def
+/gr  { grestore } def
+/ep  { showpage gr gr } def
+/m   { moveto } def
+/l  { rlineto } def
+/np  { newpath } def
+/cp  { closepath } def
+/f   { fill } def
+/o   { stroke } def
+/c   { newpath 0 360 arc } def
+/r   { 4 2 roll moveto 1 copy 3 -1 roll exch 0 exch rlineto 0 rlineto -1 mul 0 exch rlineto closepath } def
+/p1  { stroke } def
+/p2  { gsave bg fill grestore newpath } def
+/p3  { gsave bg fill grestore stroke } def
+/p6  { gsave bg eofill grestore newpath } def
+/p7  { gsave bg eofill grestore stroke } def
+/t   { 5 -2 roll moveto gsave rotate
+       1 index stringwidth pop
+       mul neg 0 rmoveto show grestore } def
+/ta  { 4 -2 roll moveto gsave rotate show } def
+/tb  { 2 -1 roll 0 rmoveto show } def
+/cl  { grestore gsave newpath 3 index 3 index moveto 1 index
+       4 -1 roll lineto  exch 1 index lineto lineto
+       closepath clip newpath } def
+/rgb { setrgbcolor } def
+/s   { scalefont setfont } def
+% end   .ps.prolog
+%%IncludeResource: font Helvetica
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font1 exch definefont pop
+%%IncludeResource: font Helvetica-Bold
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font2 exch definefont pop
+%%IncludeResource: font Helvetica-Oblique
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font3 exch definefont pop
+%%IncludeResource: font Helvetica-BoldOblique
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font4 exch definefont pop
+%%IncludeResource: font Symbol
+/Symbol findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  currentdict
+  end
+/Font5 exch definefont pop
+%%EndProlog
+%%Page: 1 1
+bp
+0.00 0.00 240.00 216.00 cl
+/bg { 0.3020 setgray } def
+0 setgray
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+45.67 99.90 3.35 -8.97 r p3
+/bg { 0.9020 setgray } def
+49.03 99.90 3.35 0.73 r p3
+/bg { 0.3020 setgray } def
+55.73 99.90 3.35 18.52 r p3
+/bg { 0.9020 setgray } def
+59.09 99.90 3.35 21.38 r p3
+/bg { 0.3020 setgray } def
+65.79 99.90 3.35 20.72 r p3
+/bg { 0.9020 setgray } def
+69.15 99.90 3.35 7.98 r p3
+/bg { 0.3020 setgray } def
+75.85 99.90 3.35 -9.78 r p3
+/bg { 0.9020 setgray } def
+79.21 99.90 3.35 -11.13 r p3
+/bg { 0.3020 setgray } def
+85.91 99.90 3.35 -19.91 r p3
+/bg { 0.9020 setgray } def
+89.27 99.90 3.35 -6.80 r p3
+/bg { 0.3020 setgray } def
+95.97 99.90 3.35 -9.09 r p3
+/bg { 0.9020 setgray } def
+99.32 99.90 3.35 -5.33 r p3
+/bg { 0.3020 setgray } def
+106.03 99.90 3.35 -15.53 r p3
+/bg { 0.9020 setgray } def
+109.38 99.90 3.35 -20.96 r p3
+/bg { 0.3020 setgray } def
+116.09 99.90 3.35 -6.08 r p3
+/bg { 0.9020 setgray } def
+119.44 99.90 3.35 -4.57 r p3
+/bg { 0.3020 setgray } def
+126.15 99.90 3.35 -30.73 r p3
+/bg { 0.9020 setgray } def
+129.50 99.90 3.35 -11.76 r p3
+/bg { 0.3020 setgray } def
+136.21 99.90 3.35 26.22 r p3
+/bg { 0.9020 setgray } def
+139.56 99.90 3.35 9.40 r p3
+/bg { 0.3020 setgray } def
+146.27 99.90 3.35 50.77 r p3
+/bg { 0.9020 setgray } def
+149.62 99.90 3.35 21.14 r p3
+/bg { 0.3020 setgray } def
+156.33 99.90 3.35 -5.99 r p3
+/bg { 0.9020 setgray } def
+159.68 99.90 3.35 -5.03 r p3
+/bg { 0.3020 setgray } def
+166.39 99.90 3.35 41.66 r p3
+/bg { 0.9020 setgray } def
+169.74 99.90 3.35 25.17 r p3
+/bg { 0.3020 setgray } def
+176.45 99.90 3.35 22.41 r p3
+/bg { 0.9020 setgray } def
+179.80 99.90 3.35 19.56 r p3
+/bg { 0.3020 setgray } def
+186.51 99.90 3.35 8.37 r p3
+/bg { 0.9020 setgray } def
+189.86 99.90 3.35 -2.99 r p3
+/bg { 0.3020 setgray } def
+196.57 99.90 3.35 -7.18 r p3
+/bg { 0.9020 setgray } def
+199.92 99.90 3.35 -3.16 r p3
+/bg { 0.3020 setgray } def
+206.63 99.90 3.35 -8.48 r p3
+/bg { 0.9020 setgray } def
+209.98 99.90 3.35 -4.30 r p3
+0.00 0.00 720.00 216.00 cl
+/Font1 findfont 6 s
+0 setgray
+51.18 38.97 (206374_at) 1 90 t
+61.24 38.97 (200833_s_at) 1 90 t
+71.30 38.97 (201746_at) 1 90 t
+81.36 38.97 (205050_s_at) 1 90 t
+91.42 38.97 (213013_at) 1 90 t
+101.48 38.97 (204813_at) 1 90 t
+111.54 38.97 (211538_s_at) 1 90 t
+121.60 38.97 (213177_at) 1 90 t
+131.66 38.97 (200622_x_at) 1 90 t
+141.72 38.97 (209295_at) 1 90 t
+151.78 38.97 (202688_at) 1 90 t
+161.84 38.97 (210412_at) 1 90 t
+171.90 38.97 (210095_s_at) 1 90 t
+181.96 38.97 (208796_s_at) 1 90 t
+192.02 38.97 (203409_at) 1 90 t
+202.08 38.97 (219628_at) 1 90 t
+212.14 38.97 (202390_s_at) 1 90 t
+0.00 0.00 240.00 216.00 cl
+/Font2 findfont 10 s
+0 setgray
+129.50 192.93 (Response 1; correlation 0.893) .5 0 t
+/Font1 findfont 8 s
+8.55 90.74 (F) 90 ta
+-0.240 (old change) tb gr
+0.00 0.00 720.00 216.00 cl
+0 setgray
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+38.97 48.47 m
+0 128.56 l
+o
+np
+38.97 48.47 m
+-4.76 0 l
+o
+np
+38.97 74.18 m
+-4.76 0 l
+o
+np
+38.97 99.90 m
+-4.76 0 l
+o
+np
+38.97 125.61 m
+-4.76 0 l
+o
+np
+38.97 151.32 m
+-4.76 0 l
+o
+np
+38.97 177.03 m
+-4.76 0 l
+o
+/Font1 findfont 8 s
+29.46 45.60 (-2) 1 0 t
+29.46 71.31 (-1) 1 0 t
+29.46 97.02 (0) 1 0 t
+29.46 122.74 (1) 1 0 t
+29.46 148.45 (2) 1 0 t
+29.46 174.16 (3) 1 0 t
+38.97 48.47 220.04 177.03 cl
+0 setgray
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+38.97 177.03 60.43 -28.51 r p1
+/bg { 0.1020 setgray } def
+46.09 169.91 5.70 -4.75 r p3
+/bg { 0.9020 setgray } def
+46.09 160.40 5.70 -4.75 r p3
+/Font1 findfont 8 s
+58.92 164.66 (Roth 2006) 0 0 t
+58.92 155.15 (Su 2004) 0 0 t
+240.00 0.00 480.00 216.00 cl
+240.00 0.00 480.00 216.00 cl
+/bg { 0.1020 setgray } def
+0 setgray
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+285.67 99.90 3.35 36.54 r p3
+/bg { 0.9020 setgray } def
+289.03 99.90 3.35 22.06 r p3
+/bg { 0.1020 setgray } def
+295.73 99.90 3.35 -19.78 r p3
+/bg { 0.9020 setgray } def
+299.09 99.90 3.35 -23.50 r p3
+/bg { 0.1020 setgray } def
+305.79 99.90 3.35 -24.62 r p3
+/bg { 0.9020 setgray } def
+309.15 99.90 3.35 -5.43 r p3
+/bg { 0.1020 setgray } def
+315.85 99.90 3.35 21.63 r p3
+/bg { 0.9020 setgray } def
+319.21 99.90 3.35 21.07 r p3
+/bg { 0.1020 setgray } def
+325.91 99.90 3.35 15.35 r p3
+/bg { 0.9020 setgray } def
+329.27 99.90 3.35 10.26 r p3
+/bg { 0.1020 setgray } def
+335.97 99.90 3.35 28.25 r p3
+/bg { 0.9020 setgray } def
+339.32 99.90 3.35 13.95 r p3
+/bg { 0.1020 setgray } def
+346.03 99.90 3.35 35.38 r p3
+/bg { 0.9020 setgray } def
+349.38 99.90 3.35 22.67 r p3
+/bg { 0.1020 setgray } def
+356.09 99.90 3.35 17.87 r p3
+/bg { 0.9020 setgray } def
+359.44 99.90 3.35 11.54 r p3
+/bg { 0.1020 setgray } def
+366.15 99.90 3.35 17.90 r p3
+/bg { 0.9020 setgray } def
+369.50 99.90 3.35 18.01 r p3
+/bg { 0.1020 setgray } def
+376.21 99.90 3.35 -24.56 r p3
+/bg { 0.9020 setgray } def
+379.56 99.90 3.35 -5.47 r p3
+/bg { 0.1020 setgray } def
+386.27 99.90 3.35 -35.05 r p3
+/bg { 0.9020 setgray } def
+389.62 99.90 3.35 -8.19 r p3
+/bg { 0.1020 setgray } def
+396.33 99.90 3.35 17.19 r p3
+/bg { 0.9020 setgray } def
+399.68 99.90 3.35 -5.34 r p3
+/bg { 0.1020 setgray } def
+406.39 99.90 3.35 -42.73 r p3
+/bg { 0.9020 setgray } def
+409.74 99.90 3.35 -22.78 r p3
+/bg { 0.1020 setgray } def
+416.45 99.90 3.35 -26.45 r p3
+/bg { 0.9020 setgray } def
+419.80 99.90 3.35 -5.44 r p3
+/bg { 0.1020 setgray } def
+426.51 99.90 3.35 -18.24 r p3
+/bg { 0.9020 setgray } def
+429.86 99.90 3.35 -7.68 r p3
+/bg { 0.1020 setgray } def
+436.57 99.90 3.35 28.61 r p3
+/bg { 0.9020 setgray } def
+439.92 99.90 3.35 1.40 r p3
+/bg { 0.1020 setgray } def
+446.63 99.90 3.35 13.16 r p3
+/bg { 0.9020 setgray } def
+449.98 99.90 3.35 5.98 r p3
+0.00 0.00 720.00 216.00 cl
+/Font1 findfont 6 s
+0 setgray
+291.18 38.97 (206374_at) 1 90 t
+301.24 38.97 (200833_s_at) 1 90 t
+311.30 38.97 (201746_at) 1 90 t
+321.36 38.97 (205050_s_at) 1 90 t
+331.42 38.97 (213013_at) 1 90 t
+341.48 38.97 (204813_at) 1 90 t
+351.54 38.97 (211538_s_at) 1 90 t
+361.60 38.97 (213177_at) 1 90 t
+371.66 38.97 (200622_x_at) 1 90 t
+381.72 38.97 (209295_at) 1 90 t
+391.78 38.97 (202688_at) 1 90 t
+401.84 38.97 (210412_at) 1 90 t
+411.90 38.97 (210095_s_at) 1 90 t
+421.96 38.97 (208796_s_at) 1 90 t
+432.02 38.97 (203409_at) 1 90 t
+442.08 38.97 (219628_at) 1 90 t
+452.14 38.97 (202390_s_at) 1 90 t
+240.00 0.00 480.00 216.00 cl
+/Font2 findfont 10 s
+0 setgray
+369.50 192.93 (Response 2; correlation 0.845) .5 0 t
+/Font1 findfont 8 s
+248.55 90.74 (F) 90 ta
+-0.240 (old change) tb gr
+0.00 0.00 720.00 216.00 cl
+0 setgray
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+278.97 48.47 m
+0 128.56 l
+o
+np
+278.97 48.47 m
+-4.76 0 l
+o
+np
+278.97 74.18 m
+-4.76 0 l
+o
+np
+278.97 99.90 m
+-4.76 0 l
+o
+np
+278.97 125.61 m
+-4.76 0 l
+o
+np
+278.97 151.32 m
+-4.76 0 l
+o
+np
+278.97 177.03 m
+-4.76 0 l
+o
+/Font1 findfont 8 s
+269.46 45.60 (-2) 1 0 t
+269.46 71.31 (-1) 1 0 t
+269.46 97.02 (0) 1 0 t
+269.46 122.74 (1) 1 0 t
+269.46 148.45 (2) 1 0 t
+269.46 174.16 (3) 1 0 t
+480.00 0.00 720.00 216.00 cl
+480.00 0.00 720.00 216.00 cl
+/bg { 0.1020 setgray } def
+0 setgray
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+525.67 99.90 3.35 1.70 r p3
+/bg { 0.9020 setgray } def
+529.03 99.90 3.35 16.19 r p3
+/bg { 0.1020 setgray } def
+535.73 99.90 3.35 -0.26 r p3
+/bg { 0.9020 setgray } def
+539.09 99.90 3.35 6.38 r p3
+/bg { 0.1020 setgray } def
+545.79 99.90 3.35 -15.20 r p3
+/bg { 0.9020 setgray } def
+549.15 99.90 3.35 -9.71 r p3
+/bg { 0.1020 setgray } def
+555.85 99.90 3.35 7.52 r p3
+/bg { 0.9020 setgray } def
+559.21 99.90 3.35 20.01 r p3
+/bg { 0.1020 setgray } def
+565.91 99.90 3.35 15.04 r p3
+/bg { 0.9020 setgray } def
+569.27 99.90 3.35 15.51 r p3
+/bg { 0.1020 setgray } def
+575.97 99.90 3.35 21.90 r p3
+/bg { 0.9020 setgray } def
+579.32 99.90 3.35 17.38 r p3
+/bg { 0.1020 setgray } def
+586.03 99.90 3.35 82.12 r p3
+/bg { 0.9020 setgray } def
+589.38 99.90 3.35 57.53 r p3
+/bg { 0.1020 setgray } def
+596.09 99.90 3.35 6.91 r p3
+/bg { 0.9020 setgray } def
+599.44 99.90 3.35 11.43 r p3
+/bg { 0.1020 setgray } def
+606.15 99.90 3.35 -0.04 r p3
+/bg { 0.9020 setgray } def
+609.50 99.90 3.35 23.93 r p3
+/bg { 0.1020 setgray } def
+616.21 99.90 3.35 -13.14 r p3
+/bg { 0.9020 setgray } def
+619.56 99.90 3.35 -4.83 r p3
+/bg { 0.1020 setgray } def
+626.27 99.90 3.35 -15.11 r p3
+/bg { 0.9020 setgray } def
+629.62 99.90 3.35 -4.28 r p3
+/bg { 0.1020 setgray } def
+636.33 99.90 3.35 3.17 r p3
+/bg { 0.9020 setgray } def
+639.68 99.90 3.35 -9.52 r p3
+/bg { 0.1020 setgray } def
+646.39 99.90 3.35 -42.97 r p3
+/bg { 0.9020 setgray } def
+649.74 99.90 3.35 -15.76 r p3
+/bg { 0.1020 setgray } def
+656.45 99.90 3.35 0.12 r p3
+/bg { 0.9020 setgray } def
+659.80 99.90 3.35 6.01 r p3
+/bg { 0.1020 setgray } def
+666.51 99.90 3.35 -14.54 r p3
+/bg { 0.9020 setgray } def
+669.86 99.90 3.35 -14.27 r p3
+/bg { 0.1020 setgray } def
+676.57 99.90 3.35 21.78 r p3
+/bg { 0.9020 setgray } def
+679.92 99.90 3.35 0.16 r p3
+/bg { 0.1020 setgray } def
+686.63 99.90 3.35 1.03 r p3
+/bg { 0.9020 setgray } def
+689.98 99.90 3.35 5.37 r p3
+0.00 0.00 720.00 216.00 cl
+/Font1 findfont 6 s
+0 setgray
+531.18 38.97 (206374_at) 1 90 t
+541.24 38.97 (200833_s_at) 1 90 t
+551.30 38.97 (201746_at) 1 90 t
+561.36 38.97 (205050_s_at) 1 90 t
+571.42 38.97 (213013_at) 1 90 t
+581.48 38.97 (204813_at) 1 90 t
+591.54 38.97 (211538_s_at) 1 90 t
+601.60 38.97 (213177_at) 1 90 t
+611.66 38.97 (200622_x_at) 1 90 t
+621.72 38.97 (209295_at) 1 90 t
+631.78 38.97 (202688_at) 1 90 t
+641.84 38.97 (210412_at) 1 90 t
+651.90 38.97 (210095_s_at) 1 90 t
+661.96 38.97 (208796_s_at) 1 90 t
+672.02 38.97 (203409_at) 1 90 t
+682.08 38.97 (219628_at) 1 90 t
+692.14 38.97 (202390_s_at) 1 90 t
+480.00 0.00 720.00 216.00 cl
+/Font2 findfont 10 s
+0 setgray
+609.50 192.93 (Response 3; correlation 0.858) .5 0 t
+/Font1 findfont 8 s
+488.55 90.74 (F) 90 ta
+-0.240 (old change) tb gr
+0.00 0.00 720.00 216.00 cl
+0 setgray
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+518.97 48.47 m
+0 128.56 l
+o
+np
+518.97 48.47 m
+-4.76 0 l
+o
+np
+518.97 74.18 m
+-4.76 0 l
+o
+np
+518.97 99.90 m
+-4.76 0 l
+o
+np
+518.97 125.61 m
+-4.76 0 l
+o
+np
+518.97 151.32 m
+-4.76 0 l
+o
+np
+518.97 177.03 m
+-4.76 0 l
+o
+/Font1 findfont 8 s
+509.46 45.60 (-2) 1 0 t
+509.46 71.31 (-1) 1 0 t
+509.46 97.02 (0) 1 0 t
+509.46 122.74 (1) 1 0 t
+509.46 148.45 (2) 1 0 t
+509.46 174.16 (3) 1 0 t
+ep
+%%Trailer
+%%Pages: 1
+%%EOF

@@ -1,0 +1,15 @@
+- Produce TIFF figures (Fig1.tif etc.) in 
+  /home/antagomir/proj/Science13/2014-NatComm-FinalFigures/main.R
+
+- Add text and labels in ODG files (soffice) on top of the 
+  TIF; export as Fig1.pdf with >300DPI
+
+- Open Fig1.pdf in GIMP; crop to final figure and resize to
+  85mm/180mm & >300DPI if needed;  
+
+- Export Final Figure: Figure-1-Lahti.jpg
+
+------------------------------------------------
+
+
+ 

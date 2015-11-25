@@ -1,0 +1,10 @@
+# This produces template.pdf to be included to Scribus:
+./tex_to_pdf.py example.tex template.tex
+./tex_to_pdf.py depmodel2.tex depmodel.tex
+./tex_to_pdf.py depequation2.tex depequation.tex
+./tex_to_pdf.py rpamodel2.tex rpamodel.tex 
+./tex_to_pdf.py RPAprior2.tex RPAprior.tex 
+./tex_to_pdf.py RPAlikelihood2.tex RPAlikelihood.tex
+./tex_to_pdf.py RPAposterior2.tex RPAposterior.tex
+
+

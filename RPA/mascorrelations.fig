@@ -1,0 +1,15 @@
+#FIG 3.2
+Landscape
+Center
+Inches
+Letter  
+100.00
+Single
+-2
+1200 2
+2 5 0 1 0 -1 50 0 -1 0.000 0 0 -1 0 0 5
+	0 mascorrelations.ps
+	 8175 1200 -1142 1200 -1142 14633 8175 14633 8175 1200
+4 0 0 50 0 0 22 0.0000 4 330 1845 5625 8775 RefSeq pairs\001
+4 0 0 50 0 0 22 0.0000 4 330 3510 4425 4875 Confirmed RefSeq pairs\001
+4 0 0 50 0 0 22 0.0000 4 330 2070 5700 10875 LocusID pairs\001
